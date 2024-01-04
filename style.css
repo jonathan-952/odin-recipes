@@ -1,44 +1,81 @@
+.main-border {
+    background-color: peachpuff;
+    padding: 30px;
+}
+
 body {
-    font-family: Georgia, serif;
-    text-align: center;
-    background-color:red;
+    background-color: darkred;
+    padding: 0px 30px;
+    font-family: Georgia;
+    font-weight: 50px;
 }
 
-.h-one {
-    font-family: "Brush Script MT", "courier new", arial;
-    font-weight: bold;
-    text-align: center;
-    font-size: 100px;
-}
-
-.link {
+.body {
     font-size: 20px;
-    font-weight: 800
 }
 
-.img-one {
-    float: right;
-    margin-right: 10px;
+h1 {
+    text-align: center;
+    font-size: 80px;
+    border-bottom: dashed #3f2c20 5px;
+    padding-bottom: 5px;
+}
+
+.img {
+    display: block;
     width: 350px;
+    height: auto;
 }
 
-.author {
-    margin-top: 250px;
-    font-weight: bold;
+#img-one {
+    width: 300px;
+    height: 400px;   
+    display: inline-block;
 }
 
 .author-note {
-    text-align: left;
-}
-
-.author-note.cursive {
-    font-family: "Brush Script MT";
+    background-color: #FFE9D3;
     font-size: 20px;
-    font-weight: 20px;
+    border: solid #3f2c20 10px;
+    padding: 8px 10px;
 }
 
-div.note {
-    border: solid black 2px;
-    padding: 10px;
-    margin-right: 350px;
+.recipe-links {
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.links-heading {
+    margin-bottom: 200px;
+}
+
+.link-space {
+    margin: 20px;
+}
+
+.description {
+    display: block;
+    margin-left: 500px;
+    margin-top: -400px;
+    margin-bottom: 350px;  
+    font-size: 23px;
+}
+
+.split-page {
+    border-bottom: dashed #3f2c20 2px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.ingredients {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: dashed #3f2c20 2px;
+    display: block;
+
 }
